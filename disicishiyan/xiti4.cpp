@@ -14,10 +14,10 @@ void fac(int x)
 	{
 		if(x%i==0)
 		{
-			printf("shisushu");
+			printf("bushisushu");
 			break;
 		}
 		if(i==x/2)
-			printf("bushisushu");
+			printf("shisushu");
 	}
 }

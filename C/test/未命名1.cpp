@@ -1,13 +1,16 @@
-#include<stdio.h>
-int main()
-{
-	int x,y;
-	printf("please input x,y:");
-	scanf("%d,%d",&x,&y);
-	printf("Output:\n");
-	if(x>y)
-		printf("%d is bigger",x);
-	else
-		printf("%d is bigger",y);
-	return 0;
+#include <stdio.h>
+int main(){
+	char a[10];
+	int i,j;
+	gets(a);
+	for(i=0;i<10;i++)
+	{
+		for(j=i+1;j<10;j++)
+		{
+			if(a[i]==a[j])
+				a[j]='1';
+				puts(a);
+		}
+		
+	}
 }
